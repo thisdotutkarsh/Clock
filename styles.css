@@ -1,5 +1,73 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #dddddd;
+    background-color: rgb(150, 150, 150);
+}
+
+.clock-dial-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.clock-dial-container .clock-numbers {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    --clock-number-rotation-degree: 0;
+    transform: rotate(var(--clock-number-rotation-degree));
+}
+
+.clock-dial-container .number-one {
+    --clock-number-rotation-degree: 30deg;
+}
+
+.clock-dial-container .number-one {
+    --clock-number-rotation-degree: 60deg;
+}
+
+.clock-dial-container .number-one {
+    --clock-number-rotation-degree: 90deg;
+}
+
+.clock-dial-container .number-one {
+    --clock-number-rotation-degree: 30deg;
+}
+
+.clock-dial-container .number-one {
+    --clock-number-rotation-degree: 30deg;
+}
+
+.clock-dial-container .number-one {
+    --clock-number-rotation-degree: 30deg;
+}
+
+.clock-dial-container .number-one {
+    --clock-number-rotation-degree: 30deg;
+}
+
+.clock-dial-container .number-one {
+    --clock-number-rotation-degree: 30deg;
+}
+
+.clock-dial-container .number-one {
+    --clock-number-rotation-degree: 30deg;
+}
+
+.clock-dial-container .number-one {
+    --clock-number-rotation-degree: 30deg;
+}
+
+.clock-dial-container .number-one {
+    --clock-number-rotation-degree: 30deg;
+}
+
+.clock-dial-container .number-one {
+    --clock-number-rotation-degree: 30deg;
 }
