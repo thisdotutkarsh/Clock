@@ -1,5 +1,6 @@
 *, *::after, *::before {
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
@@ -8,6 +9,9 @@ body {
 
 .clock-dial-container {
     position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
     width: 400px;
     height: 400px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -19,6 +23,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+    font-size: 25px;
     text-align: center;
     --clock-number-rotation-degree: 0;
     transform: rotate(var(--clock-number-rotation-degree));
@@ -28,46 +33,106 @@ body {
     --clock-number-rotation-degree: 30deg;
 }
 
-.clock-dial-container .number-one {
+.clock-dial-container .number-one .number-one-styles {
+    transform: rotate(330deg);
+    margin: 8px;
+}
+
+.clock-dial-container .number-two {
     --clock-number-rotation-degree: 60deg;
 }
 
-.clock-dial-container .number-one {
+.clock-dial-container .number-two .number-two-styles {
+    transform: rotate(300deg);
+    margin: 8px;
+}
+
+.clock-dial-container .number-three {
     --clock-number-rotation-degree: 90deg;
 }
 
-.clock-dial-container .number-one {
-    --clock-number-rotation-degree: 30deg;
+.clock-dial-container .number-three .number-three-styles {
+    transform: rotate(270deg);
+    margin: 8px;
 }
 
-.clock-dial-container .number-one {
-    --clock-number-rotation-degree: 30deg;
+.clock-dial-container .number-four {
+    --clock-number-rotation-degree: 120deg;
 }
 
-.clock-dial-container .number-one {
-    --clock-number-rotation-degree: 30deg;
+.clock-dial-container .number-four .number-four-styles {
+    transform: rotate(240deg);
+    margin: 8px;
 }
 
-.clock-dial-container .number-one {
-    --clock-number-rotation-degree: 30deg;
+.clock-dial-container .number-five {
+    --clock-number-rotation-degree: 150deg;
 }
 
-.clock-dial-container .number-one {
-    --clock-number-rotation-degree: 30deg;
+.clock-dial-container .number-five .number-five-styles {
+    transform: rotate(210deg);
+    margin: 8px;
 }
 
-.clock-dial-container .number-one {
-    --clock-number-rotation-degree: 30deg;
+.clock-dial-container .number-six {
+    --clock-number-rotation-degree: 180deg;
 }
 
-.clock-dial-container .number-one {
-    --clock-number-rotation-degree: 30deg;
+.clock-dial-container .number-six .number-six-styles {
+    transform: rotate(180deg);
+    margin: 8px;
 }
 
-.clock-dial-container .number-one {
-    --clock-number-rotation-degree: 30deg;
+.clock-dial-container .number-seven {
+    --clock-number-rotation-degree: 210deg;
 }
 
-.clock-dial-container .number-one {
-    --clock-number-rotation-degree: 30deg;
+.clock-dial-container .number-seven .number-seven-styles {
+    transform: rotate(150deg);
+    margin: 8px;
+}
+
+.clock-dial-container .number-eight {
+    --clock-number-rotation-degree: 240deg;
+}
+
+.clock-dial-container .number-eight .number-eight-styles {
+    transform: rotate(120deg);
+    margin: 8px;
+}
+
+.clock-dial-container .number-nine {
+    --clock-number-rotation-degree: 270deg;
+}
+
+.clock-dial-container .number-nine .number-nine-styles {
+    transform: rotate(90deg);
+    margin: 8px;
+}
+
+.clock-dial-container .number-ten {
+    --clock-number-rotation-degree: 300deg;
+}
+
+.clock-dial-container .number-ten .number-ten-styles {
+    transform: rotate(60deg);
+    margin: 8px;
+}
+
+.clock-dial-container .number-eleven {
+    --clock-number-rotation-degree: 330deg;
+}
+
+.clock-dial-container .number-eleven .number-eleven-styles {
+    transform: rotate(30deg);
+    margin: 8px;
+}
+
+.clock-dial-container .number-twelve {
+    --clock-number-rotation-degree: 360deg;
+}
+
+.clock-dial-container .number-twelve .number-twelve-styles {
+    transform: rotate(0deg);
+    margin: 8px;
 }
