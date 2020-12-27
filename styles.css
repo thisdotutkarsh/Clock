@@ -136,3 +136,50 @@ body {
     transform: rotate(0deg);
     margin: 8px;
 }
+
+.clock-dial-container::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 20px;
+    height: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    z-index: 600;
+}
+
+.clock-dial-container .clock-hands {
+    --clock-hands-rotation: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px 10px 0px 0px;
+    z-index: 100;
+    transform: translateX(-50%) rotate(calc(var(--clock-hands-rotation) * 1deg));
+    transform-origin: bottom;
+}
+
+.clock-dial-container .clock-hands.hour-hand {
+    width: 12px;
+    height: 24%;
+    background-color: rgb(0, 0, 0);
+    z-index: 500;
+}
+
+.clock-dial-container .clock-hands.minute-hand {
+    width: 8px;
+    height: 42%;
+    background-color: rgb(0, 0, 0);
+    z-index: 400;
+}
+
+.clock-dial-container .clock-hands.second-hand {
+    width: 4px;
+    height: 48%;
+    background-color: rgb(255, 0, 0);
+    z-index: 300;
+}
