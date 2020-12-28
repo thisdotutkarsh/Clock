@@ -156,7 +156,6 @@ body {
     position: absolute;
     bottom: 50%;
     left: 50%;
-    border: 1px solid rgb(255, 255, 255);
     border-radius: 10px 10px 0px 0px;
     z-index: 100;
     transform: translateX(-50%) rotate(calc(var(--clock-hands-rotation) * 1deg));
@@ -164,15 +163,15 @@ body {
 }
 
 .clock-dial-container .clock-hands.hour-hand {
-    width: 12px;
+    width: 14px;
     height: 24%;
     background-color: rgb(0, 0, 0);
-    z-index: 500;
+    z-index: 300;
 }
 
 .clock-dial-container .clock-hands.minute-hand {
-    width: 8px;
-    height: 42%;
+    width: 10px;
+    height: 39%;
     background-color: rgb(0, 0, 0);
     z-index: 400;
 }
@@ -181,5 +180,5 @@ body {
     width: 4px;
     height: 48%;
     background-color: rgb(255, 0, 0);
-    z-index: 300;
+    z-index: 500;
 }
