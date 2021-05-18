@@ -1,20 +1,22 @@
 *, *::after, *::before {
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 .clock-container {
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
+    box-shadow: 5px 10px 20px #ababab;
 }
 
 .clock-dial-container {
@@ -170,14 +172,14 @@ body {
 }
 
 .clock-dial-container .clock-hands.hour-hand {
-    width: 14px;
-    height: 24%;
+    width: 18px;
+    height: 27%;
     background-color: rgb(0, 0, 0);
     z-index: 300;
 }
 
 .clock-dial-container .clock-hands.minute-hand {
-    width: 10px;
+    width: 15px;
     height: 39%;
     background-color: rgb(0, 0, 0);
     z-index: 400;
