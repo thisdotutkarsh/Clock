@@ -24,3 +24,5 @@ function setTime() {
 function setRotationDegrees(clockHand, rotationDegree) {
     clockHand.style.setProperty('--clock-hands-rotation', rotationDegree * 360)
 }
+
+/*  Add functions that modify styling   */
