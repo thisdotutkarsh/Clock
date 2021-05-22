@@ -25,4 +25,5 @@ function setRotationDegrees(clockHand, rotationDegree) {
     clockHand.style.setProperty('--clock-hands-rotation', rotationDegree * 360)
 }
 
-/*  Add functions that modify styling   */
+/*  Add functionality to modify styling   */
+/* Add functionality to add or edit tasks */
