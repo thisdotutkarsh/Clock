@@ -26,4 +26,3 @@ function setRotationDegrees(clockHand, rotationDegree) {
 }
 
 /*  Add functionality to modify styling   */
-/* Add functionality to add or edit tasks */
