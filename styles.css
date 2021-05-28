@@ -192,12 +192,3 @@ body {
     background-color: rgb(255, 0, 0);
     z-index: 500;
 }
-
-.settings-pane {
-    position: absolute;
-    right: 0;
-    width: 15%;
-    height: 100%;
-    background-color: inherit;
-    border-left: 2px solid rgb(156, 153, 153);
-}
