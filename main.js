@@ -26,3 +26,8 @@ function setRotationDegrees(clockHand, rotationDegree) {
 }
 
 /*  Add functionality to modify styling   */
+
+/*
+    1. Function to modify clock hands.
+    2. Function to modify clock dial.
+*/
