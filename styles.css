@@ -9,6 +9,15 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+.column-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
 .clock-container {
     position: absolute;
     top: 48%;
