@@ -1,5 +1,6 @@
 window.onload = (event) => {
     setTime();
+    toggleBackgroundColor()    
 }
 
 setInterval(setTime, 1000);
@@ -31,3 +32,8 @@ function setRotationDegrees(clockHand, rotationDegree) {
     1. Function to modify clock hands.
     2. Function to modify clock dial.
 */
+
+function toggleBackgroundColor() {
+    let containerElement = document.getElementById("#Container");
+    console.log(containerElement);
+}
