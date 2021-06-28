@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+:root {
+    --black: rgb(0, 0, 0);
+}
+
 body {
     background-color: rgb(239, 239, 239);
 }
@@ -24,7 +28,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 25px;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--black);
     border-radius: 10px;
     /* box-shadow: 5px 10px 20px; */
 }
@@ -35,7 +39,7 @@ body {
     height: 400px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 50%;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid var(--black);
 }
 
 .clock-dial-container .clock-numbers {
@@ -164,7 +168,7 @@ body {
     transform: translate(-50% , -50%);
     width: 20px;
     height: 20px;
-    border: 5px solid rgb(0, 0, 0);
+    border: 5px solid var(--black);
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     z-index: 600;
@@ -184,14 +188,14 @@ body {
 .clock-dial-container .clock-hands.hour-hand {
     width: 18px;
     height: 27%;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--black);
     z-index: 300;
 }
 
 .clock-dial-container .clock-hands.minute-hand {
     width: 15px;
     height: 39%;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--black);
     z-index: 400;
 }
 
