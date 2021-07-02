@@ -28,7 +28,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 25px;
-    background-color: var(--black);
+    background-color: var(--black, #000);
     border-radius: 10px;
     /* box-shadow: 5px 10px 20px; */
 }
@@ -168,7 +168,7 @@ body {
     transform: translate(-50% , -50%);
     width: 20px;
     height: 20px;
-    border: 5px solid var(--black);
+    border: 5px solid var(--black, #000);
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     z-index: 600;
@@ -188,14 +188,14 @@ body {
 .clock-dial-container .clock-hands.hour-hand {
     width: 18px;
     height: 27%;
-    background-color: var(--black);
+    background-color: var(--black, #000);
     z-index: 300;
 }
 
 .clock-dial-container .clock-hands.minute-hand {
     width: 15px;
     height: 39%;
-    background-color: var(--black);
+    background-color: var(--black, #000);
     z-index: 400;
 }
 
